@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dcm.Twitter.Contracts\Dcm.Twitter.Contracts.csproj" />
+    <ProjectReference Include="..\Dcm.Twitter.Repository\Dcm.Twitter.Repository.csproj" />
+    <ProjectReference Include="..\Dcm.Twitter.Models\Dcm.Twitter.Models.csproj" />
+    <ProjectReference Include="..\Dcm.Twitter.Business\Dcm.Twitter.Business.csproj" />
+  </ItemGroup>
+
+
+</Project>
